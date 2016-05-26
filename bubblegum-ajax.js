@@ -21,7 +21,7 @@ var bgAjax = function() {
 }();
 
 /*
-// test a PUT request using cross domain (CORS)
+// test a PUT request using cross origin (CORS)
 bgAjax('put', 'http://xxx.com', {name: 'rei', age: 37}, function(data) {
     console.log(data);
 }, true);
